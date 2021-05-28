@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=I">
+    <title>Information</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="name">Name </label>
+        <div><input type="text" name="Name" id="name"></div><br>
+
+        <label for="email">Email </label>
+        <div> <input type="email" name="E-mail" id="email"></div><br>
+
+        <label for="dob"> D.O.B. </label>
+        <div><input type="date" name="DOB" id="dob"></div> <br>
+
+        <label for="v">Vaccinated </label>
+        <div><input type="checkbox" name="Vaccinated" id="v"></div><br>
+
+        <div><label for="va1"> Covishield</label>
+            <input type="radio" name="Vacc." id="va1">
+            <label for="va2"> Covaxin</label>
+            <input type="radio" name="Vacc." id="va2">
+            <label for="va3">Phizer</label>
+            <input type="radio" name="Vacc." id="va3">
+            <label for="va4">Moderna</label>
+            <input type="radio" name="Vacc." id="va4">
+        </div> <br>
+
+        <label for="Ph">Phone no. </label>
+        <div><input type="number" name="Phone no." id="Ph"></div><br>
+
+        <div>
+            <label for="gen1">Male</label>
+            <input type="radio" name="Gender" id="gen1">
+            <label for="gen2">Female</label>
+            <input type="radio" name="Gender" id="gen2">
+            <label for="gen3">others</label>
+            <input type="radio" name="Gender" id="gen3">
+        </div><br>
+        <label for="about">About</label>
+        <div> <textarea name="About" cols="30" rows="10" id="about"></textarea></div>
+
+        <label for="Rec.">Recommend to others</label>
+        <select name="Options" id="Rec.">
+            <option value="YES">Yes</option>
+            <option value="NO">No</option>
+            <option value="Default" selected>Default</option>
+        </select>
+
+       
+        <br>
+        <a href="https://www.google.com/" target="_blank">Google </a><a href="https://www.facebook.com/"
+            target="_blank">Facebook </a>
+        <a href="https://www.Instagram.com/" target="_blank">Instagram </a><a href="https://www.twitter.com/"
+            target="_blank">twitter </a>
+
+ <br>
+        <input type="reset" name="Reset">
+        <input type="submit" name="Submit">
+
+
+    </form>
+</body>
+
+</html>
